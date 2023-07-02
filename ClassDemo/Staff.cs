@@ -28,6 +28,39 @@ namespace ClassDemo
             }
         }
 
-        
+        // If you wanted to create getter and setter methods without the if checker, (just a plain getter and setter)
+        // The following shortcut option would have sufficed instead of the block of code above
+        // public int HoursWorked { get; set; }  // Hii tunaandika pale juu kwa fields. It's just a field/variable 
+        // modified to a getter and setter function
+
+        public void PrintMessage()
+        {
+            Console.WriteLine("Calculating pay...");
+        }
+
+        // Method to calculate staff member pay
+        public int CalculatePay()
+        {
+            PrintMessage();
+
+            if(hourlyRate > 0)
+            {
+                return hWorked * hourlyRate;
+            }
+        }
+
+        public int CalculatePay(int bonus, int allowance)
+        {
+            PrintMessage();
+
+            if (hWorked > 0)
+            {
+                return hWorked * hourlyRate + bonus + allowance;
+            }
+            else
+            {
+                return 0;
+            }
+        }
     }
 }
