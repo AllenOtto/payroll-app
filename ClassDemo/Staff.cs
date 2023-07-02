@@ -14,7 +14,7 @@ namespace ClassDemo
 
         public int HoursWorked
         {
-            get { return hWorked;  }
+            get { return hWorked; }
 
             set { 
                 if(value > 0)
@@ -28,13 +28,6 @@ namespace ClassDemo
             }
         }
 
-        // If you wanted to create getter and setter methods without the if checker, (just a plain getter and setter)
-        // The following shortcut option would have sufficed instead of the block of code above
-        // public int HoursWorked { get; set; }
-
-        public int MonthlySalary()
-        {
-            return hWorked * hourlyRate;
-        }
+        
     }
 }
