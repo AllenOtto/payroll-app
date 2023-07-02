@@ -1,0 +1,8 @@
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\bin\Debug\ClassDemo.exe.config
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\bin\Debug\ClassDemo.exe
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\bin\Debug\ClassDemo.pdb
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\obj\Debug\ClassDemo.csproj.AssemblyReference.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\obj\Debug\ClassDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\obj\Debug\ClassDemo.csproj.CoreCompileInputs.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\obj\Debug\ClassDemo.exe
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ClassDemo\ClassDemo\obj\Debug\ClassDemo.pdb

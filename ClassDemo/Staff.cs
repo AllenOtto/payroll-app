@@ -12,6 +12,13 @@ namespace ClassDemo
         private const int hourlyRate = 30;
         private int hWorked;
 
+        public Staff(string name)
+        {
+            this.nameOfStaff = name;
+            Console.WriteLine($"\n Name of Staff {nameOfStaff}");
+            Console.WriteLine("=======================");
+        }
+
         public int HoursWorked
         {
             get { return hWorked; }
@@ -45,7 +52,7 @@ namespace ClassDemo
 
             if(hourlyRate > 0)
             {
-                return hWorked * hourlyRate;
+                return HoursWorked * hourlyRate;
             }
         }
 
