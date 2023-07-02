@@ -38,7 +38,7 @@ namespace ClassDemo
             Console.WriteLine("Calculating pay...");
         }
 
-        // Method to calculate staff member pay
+        // CalculatePay() Method to calculate staff member pay
         public int CalculatePay()
         {
             PrintMessage();
@@ -49,6 +49,7 @@ namespace ClassDemo
             }
         }
 
+        // Overload the CalculatePay() method with two parameters
         public int CalculatePay(int bonus, int allowance)
         {
             PrintMessage();
@@ -61,6 +62,12 @@ namespace ClassDemo
             {
                 return 0;
             }
+        }
+
+        // Override the classes pre-defined ToString() method
+        public override string ToString()
+        {
+            return $"Name of Staff = {nameOfStaff}, hourly rate = {hourlyRate}, hours worked = {HoursWorked}";
         }
     }
 }
